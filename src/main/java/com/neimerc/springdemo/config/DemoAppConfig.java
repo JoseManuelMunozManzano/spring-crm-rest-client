@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.luv2code.springdemo")
+@ComponentScan("com.neimerc.springdemo")
 @PropertySource({ "classpath:application.properties" })
 public class DemoAppConfig implements WebMvcConfigurer {
 
